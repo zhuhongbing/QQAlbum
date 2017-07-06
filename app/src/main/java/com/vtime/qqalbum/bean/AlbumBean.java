@@ -8,6 +8,16 @@ public class AlbumBean {
 
     private String title;
     private String subId;
+    private int url;
+    public int value;     //自己在实体中添加的
+
+    public int getUrl() {
+        return url;
+    }
+
+    public void setUrl(int url) {
+        this.url = url;
+    }
 
     public String getTitle() {
         return title;

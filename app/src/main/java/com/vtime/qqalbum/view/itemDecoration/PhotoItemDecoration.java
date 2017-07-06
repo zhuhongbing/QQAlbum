@@ -1,4 +1,4 @@
-package com.vtime.qqalbum.view;
+package com.vtime.qqalbum.view.itemDecoration;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,7 +13,9 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import com.vtime.qqalbum.base.BaseApplication;
 import com.vtime.qqalbum.bean.AlbumBean;
+import com.vtime.qqalbum.util.SmallUtil;
 
 import java.util.List;
 
