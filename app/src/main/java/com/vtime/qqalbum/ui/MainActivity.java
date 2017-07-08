@@ -59,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
         itemDecoration.setmDatas(mAdapter.getDatas());
     }
 
+    /**
+     * 模拟数据
+     */
     private void initData() {
         int position = 1;
         for (int i = 0; i < 10; i++) {
